@@ -54,7 +54,11 @@ We evaluate the performance of our approach on nuScenes, Argoverse2 and UPARK da
 | Ours (Holistic)  | 0.4888          | 0.2392               | 0.4814           | 0.4031       | 0.3311          | 0.2303               | 0.3150           | 0.2921       |
 
 
-![comparison](assets/visualize.png "comparison")
+<div align="center"><h4> Visualized Comparison</h4></div>
+
+<div align="center">
+  <img src="assets/visualize.png" alt="comparison" width="500"/>
+</div>
 
 ## Getting Started
 - Using code below to  test all methods
