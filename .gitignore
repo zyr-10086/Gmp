@@ -15,7 +15,7 @@ dist/
 *.bak
 # 示例：忽略所有 .env 文件
 *.env
-*.pkl
+
 
 # 忽略特定文件
 # 示例：忽略根目录下的 config.json 文件
