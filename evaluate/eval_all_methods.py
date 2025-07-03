@@ -62,7 +62,7 @@ def fromat_gt_scene(gt_scene_data):
     return gt_datas
 
 def draw_unmerge(dataset_name):
-    all_pred_data_path = '../local_data/nuscenes/result_keep_all_' + dataset_name +'_glb.pkl'
+    all_pred_data_path = '/data/result_keep_all_' + dataset_name +'_glb.pkl'
     with open(all_pred_data_path, 'rb') as f:
         all_pred_data = pkl.load(f)
     
@@ -93,7 +93,7 @@ def draw_unmerge(dataset_name):
         # print("image saved to : ", pred_save_path)
 
 def format_all_global_datas(dataset_name, method_list):
-    all_pred_data_path = '../local_data/nuscenes/result_keep_all_' + dataset_name +'_glb.pkl'
+    all_pred_data_path = '/data/result_keep_all_' + dataset_name +'_glb.pkl'
     with open(all_pred_data_path, 'rb') as f:
         all_pred_data = pkl.load(f)
     
